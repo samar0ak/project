@@ -1,0 +1,37 @@
+INSERT INTO crud1
+  ( id,fname, lname, email, contact, education )
+VALUES
+  ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar')
+  , ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar'), ('','John', 123, 'Lloyds Office','sam','samar')
+  ;
+
+
+
+  	<td class=" text-center">
+																		<a href="#"  class=" edit_data5 btn btn-sm btn-primary" id="<?php echo  ($row->id); ?>" title="click to view">View</a>
+																	</td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <td><a href="view.php?myid=' . $field6name . '" class="   edit_data5 btn btn-sm btn-primary   "><i class="fa-solid fa-eye"></i></a></>
